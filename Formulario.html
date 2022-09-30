@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form autocomplete="on" target="_blank" method="get">
+        <fieldset>
+        <Legend>Dados para Cadastro</Legend>
+        Nome: <input type="text" name="NOME" id="Nome"/> <br><br>
+        E-mail: <input type="email"><br><br>
+        Pesquisa: <input type="search"><br><br>
+        URL: <input type="url"><br><br>
+        Number: <input type="number"> <br><br>
+        Senha: <input type="password">
+    </form>
+    <form>  
+        </fieldset>
+        <br><br><br>
+        <!-- a tag radio seleciona 1 das opções e envia a uma variavel -->
+        <fieldset>
+        <legend>Videogame (apenas 1 seleção):</legend>
+        <input type="radio" name="videogame" value="atari" checked> Atari <br>
+        <input type="radio" name="videogame" value="Snes"> Super Nitendo <br>
+        <input type="radio" name="videogame" value="PSX"> PlayStation <br>
+        <br>
+        <input type="submit">
+        </fieldset>
+    </form>  
+        <br><br><br>
+        <!-- a tag chackbox permite selecionar 1 ou mais opçoes simultaneamente -->
+    <form>  
+        <fieldset>
+        <legend> Videogames que você ja teve (Mais de uma seleção)</legend>
+        <input type="checkbox" name="Atari"> Atari <br>
+        <input type="checkbox" name="Snes"> Super Nitendo <br>
+        <input type="checkbox" name="PSX"> PlayStation <br>
+        <input type="checkbox" name="XBOX"> XBOX <br>
+        <br>
+        <input type="submit">
+    </fieldset>
+    </form>
+        <br><br><br>
+    <form>
+        Horas de Jogo por dia: <br>
+         <select name="selecao" id="select">
+            <option value="Menos de 1 Hora">Menos de 1 Hora</option>
+            <option value="entre 1h e 3h">entre 1h e 3h</option>
+            <option value="entre 3h e 5h">entre 3h e 5h</option>
+            <option value=" mais de 5h">mais de 5h</option>
+        </select>
+
+    </form>
+</body>
+</html>
