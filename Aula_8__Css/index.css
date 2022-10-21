@@ -1,0 +1,16 @@
+hr {
+    color:sienna
+}
+
+p {
+    margin-left: 20px;
+}
+
+body {
+    background-image:url("images/caveira.gif");
+    background-position: center;
+    background-size:70%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+   
+} 
