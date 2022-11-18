@@ -1,0 +1,30 @@
+body{
+    background-image: url(images/bg-pattern-bottom.svg);
+}
+.card {
+    max-width: 320px;
+    height: 430px;
+    margin: 2rem auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.top-half {
+    background-image: url(images/bg-pattern-card.svg);
+    background-color: blue;
+}
+
+.icon-image {
+    margin-top: 20px;
+    border-radius: 50%;
+
+
+}
+.foto_do_carinha {
+    border-radius: 50%;
+}
+.botton-half{}
+
+.age {}
+
+.london {}
